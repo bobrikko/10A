@@ -1,0 +1,53 @@
+Можно:
+x = 3
+massa = 3
+massa_cat = 3
+_ = 3
+x2 = 3
+
+Можно но не нужно:
+Massa = 3
+xT356Mk_ = 3
+massaCat = 3
+масса = 3
+
+Нельзя:
+massa-cat = 3
+massa cat = 3
+5a = 3
+______________
+a = 2
+b = 3
+print("a") < a
+print(a) < 2
+print(b) < 3
+print(c) < error
+________________
+a = 2
+b = 3
+summa = a + b
+print(summa) < 5
+difference = a - b
+print(difference) < -1
+multiply = a * b
+print(multiply) < 6
+division = a / b
+print(division) < 0.66666666
+____________________________
+c = (2 + 2) * 2
+print(c) < 6
+________________
+a = 5
+b = 7
+x = 2
+c = x**2 + 3 * a + b
+print(c) < 2
+___________________
+p = 3
+x = 6
+t = (1-(1/(1+p)))/((5*x)+((1 + p)/(5 - x)))
+print(t)
+_____________________
+x = 3
+t = 1/(1 + (1 / (1 + (1 / (1 + x)))))
+print(t)
